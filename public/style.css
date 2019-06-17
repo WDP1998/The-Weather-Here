@@ -1,0 +1,32 @@
+p{
+    padding: 10px;
+    background-color: #800000;
+    color: aliceblue;
+    text-align: center
+}
+
+body{
+    text-align: center;
+    background-color: #9ea2a2;
+    color:#3D3935;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    color: white;
+    text-align: center;
+    border: none;
+    background-color: #800000;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 32px;
+}
+#links{
+    text-align: center;
+    padding: 15px 32px;
+    color: aliceblue;
+}
+
+#button{
+    text-align: center;
+}
