@@ -30,3 +30,30 @@ button{
 #button{
     text-align: center;
 }
+Open Search Open Navigation Home / Code Snippets / CSS / Sticky Footer Sticky Footer Photo of Chris Coyier Author Chris Coyier 143 Comments Join the Conversation Published Sep 4,
+2009 Updated May 25,
+2016 Twitter Facebook Ship custom analytics today with Keen.io. Works great if you can apply a fixed height to the footer. <div class="page-wrap">Content ! </div><footer class="site-footer">I'm the Sticky Footer.
+</footer>* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -142px;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+.site-footer,
+.page-wrap:after {
+    height: 142px;
+}
